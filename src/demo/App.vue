@@ -31,7 +31,7 @@
       </form>
 
       <MoneyButton
-        to="74"
+        to="1Pwmd4RCoTbYP6tLWVoDcys1GW5chsve8C"
         :amount="amount"
         :label="label"
         client-id="123"
