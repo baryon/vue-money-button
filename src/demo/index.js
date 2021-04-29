@@ -1,10 +1,10 @@
 import Vue from 'vue'
-import VueMoneyButton from 'index.js'
+import VueMoneyButton from '../index.js'
 import App from './App.vue'
 
-Vue.use(VueMoneyButton)
+Vue.use( VueMoneyButton )
 
-const app = new Vue({
+const app = new Vue( {
   el: '#app',
-  render: h => h(App)
-})
+  render: h => h( App )
+} )

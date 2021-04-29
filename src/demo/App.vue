@@ -89,8 +89,8 @@ Vue.use(VueMoneyButton)</code></pre>
 </template>
 
 <script>
-import usage1 from 'demo/usage.component.txt'
-import usage2 from 'demo/usage.imb.txt'
+import usage1 from './usage.component.txt'
+import usage2 from './usage.imb.txt'
 
 export default {
   data() {

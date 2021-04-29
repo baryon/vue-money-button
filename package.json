@@ -6,14 +6,14 @@
   "license": "Apache-2.0",
   "homepage": "https://libitx.github.io/vue-money-button/",
   "repository": "github:libitx/vue-money-button",
-  "main": "dist/vue-money-button.js",
+  "main": "src/index.js",
+  "files": [
+    "src/components/*",
+    "src/*.js"
+  ],
   "scripts": {
-    "build": "yarn run build:dist && yarn run build:demo",
-    "build:demo": "NODE_ENV=production webpack --config ./config/dev.js --mode production",
-    "build:dist": "NODE_ENV=production webpack --config ./config/dist.js --mode production",
     "clean": "rimraf ./dist/* ./demo/*",
     "dev": "NODE_ENV=development webpack serve --config ./config/dev.js --inline --hot --mode development",
-    "release:demo": "git subtree push --prefix demo origin gh-pages",
     "test": "karma start config/karma.config.js"
   },
   "devDependencies": {
