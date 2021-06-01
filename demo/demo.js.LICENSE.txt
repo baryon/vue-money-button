@@ -1,0 +1,12 @@
+/*!
+ * Vue.js v2.6.12
+ * (c) 2014-2020 Evan You
+ * Released under the MIT License.
+ */
+
+/*!
+ * vue-money-button v1.0.0 (http://github.com/libitx)
+ * An unofficial Vue.js component for Money Button.
+ * (c) 2021 libitx
+ * Released under the MIT License.
+ */
